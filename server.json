@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-10-20T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Sapato",
+      "type": "outcome",
+      "category": "Vestuário",
+      "price": 150,
+      "createdAt": "2023-10-10T19:30:44.505Z"
+    },
+    {
+      "id": 3,
+      "description": "Viajem para Santa Catarina",
+      "type": "outcome",
+      "category": "Viajem",
+      "price": 1980,
+      "createdAt": "2023-10-11T19:24:44.505Z"
+    },
+    {
+      "id": 4,
+      "description": "Mentoria",
+      "type": "income",
+      "category": "Educação",
+      "price": 1500,
+      "createdAt": "2023-10-02T19:24:44.505Z"
+    }
+  ]
+}
