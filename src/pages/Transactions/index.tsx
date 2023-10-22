@@ -2,7 +2,7 @@ import { Header } from "../../components/Header"
 import { Summary } from "../../components/Summary"
 import { SearchForm } from "./components/SearchForm"
 
-import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles"
+import * as Styled from "./styles"
 
 export function Transactions() {
   return (
@@ -10,15 +10,15 @@ export function Transactions() {
       <Header />
       <Summary />
 
-      <TransactionsContainer>
+      <Styled.TransactionsContainer>
         <SearchForm />
 
-        <TransactionsTable>
+        <Styled.TransactionsTable>
           <tbody>
             <tr>
               <td width='50%'>Desenvolvimento de site</td>
               <td>
-                <PriceHighlight variant='income'>R$ 8.000,00</PriceHighlight>
+                <Styled.PriceHighlight variant='income'>R$ 8.000,00</Styled.PriceHighlight>
               </td>
               <td>Venda</td>
               <td>21/10/2023</td>
@@ -27,14 +27,14 @@ export function Transactions() {
             <tr>
               <td width='50%'>Sapato</td>
               <td>
-                <PriceHighlight variant='outcome'>-R$ 159,00</PriceHighlight>
+                <Styled.PriceHighlight variant='outcome'>-R$ 159,00</Styled.PriceHighlight>
               </td>
               <td>Vestuário</td>
               <td>10/10/2023</td>
             </tr>
           </tbody>
-        </TransactionsTable>
-      </TransactionsContainer>
+        </Styled.TransactionsTable>
+      </Styled.TransactionsContainer>
     </div>
   )
 }

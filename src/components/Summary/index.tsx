@@ -1,42 +1,42 @@
 import { ArrowCircleUp, ArrowCircleDown, CurrencyDollar } from "phosphor-react"
 
-import { SummaryCard, SummaryContainer, TransactionTypeIcon } from "./styles"
+import * as Styled from "./styles"
 
 export function Summary() {
   return (
-    <SummaryContainer>
-      <SummaryCard>
+    <Styled.SummaryContainer>
+      <Styled.SummaryCard>
         <header>
           <span>Entradas</span>
-          <TransactionTypeIcon variant='income'>
+          <Styled.TransactionTypeIcon variant='income'>
             <ArrowCircleUp size={32} />
-          </TransactionTypeIcon>
+          </Styled.TransactionTypeIcon>
         </header>
 
         <strong>R$ 17.900,00</strong>
-      </SummaryCard>
+      </Styled.SummaryCard>
 
-      <SummaryCard>
+      <Styled.SummaryCard>
         <header>
           <span>Saídas</span>
-          <TransactionTypeIcon variant='expense'>
+          <Styled.TransactionTypeIcon variant='expense'>
             <ArrowCircleDown size={32} />
-          </TransactionTypeIcon>
+          </Styled.TransactionTypeIcon>
         </header>
 
         <strong>R$ 11.400,00</strong>
-      </SummaryCard>
+      </Styled.SummaryCard>
 
-      <SummaryCard variant='green'>
+      <Styled.SummaryCard variant='green'>
         <header>
           <span>Total</span>
-          <TransactionTypeIcon variant='total'>
+          <Styled.TransactionTypeIcon variant='total'>
             <CurrencyDollar size={32} />
-          </TransactionTypeIcon>
+          </Styled.TransactionTypeIcon>
         </header>
 
         <strong>R$ 1.400,00</strong>
-      </SummaryCard>
-    </SummaryContainer>
+      </Styled.SummaryCard>
+    </Styled.SummaryContainer>
   )
 }

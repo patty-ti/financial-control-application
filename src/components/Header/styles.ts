@@ -15,6 +15,10 @@ export const HeaderContent = styled.div`
   align-items: center;
 `
 
+export const LogoImg = styled.img`
+  height: 3.125rem;
+`
+
 export const NewTransactionButton = styled.button`
   height: 50px;
   border: 0;

@@ -2,24 +2,24 @@ import * as Dialog from "@radix-ui/react-dialog"
 
 import { NewTransactionModal } from "../NewTransactionModal"
 
-import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles"
+import * as Styled from "./styles"
 
-import logoImg from "../../assets/logo.svg"
+import logoImg from "../../assets/logoFinancialControl.png"
 
 export function Header() {
   return (
-    <HeaderContainer>
-      <HeaderContent>
-        <img src={logoImg} alt='Logo da aplicação, representado por dois triângulos' />
+    <Styled.HeaderContainer>
+      <Styled.HeaderContent>
+        <Styled.LogoImg src={logoImg} alt='Logo da aplicação, representado por dois triângulos' />
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewTransactionButton>Nova transação</NewTransactionButton>
+            <Styled.NewTransactionButton>Nova transação</Styled.NewTransactionButton>
           </Dialog.Trigger>
 
           <NewTransactionModal />
         </Dialog.Root>
-      </HeaderContent>
-    </HeaderContainer>
+      </Styled.HeaderContent>
+    </Styled.HeaderContainer>
   )
 }
