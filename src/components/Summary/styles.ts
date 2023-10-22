@@ -36,3 +36,21 @@ export const SummaryCard = styled.div<SummaryCardProps>`
       background: ${props.theme["green-700"]};
     `}
 `
+
+interface TransactionTypeIconProps {
+  variant: "income" | "expense" | "total"
+}
+
+export const TransactionTypeIcon = styled.button<TransactionTypeIconProps>`
+  background-color: transparent;
+  border: 0;
+
+  svg {
+    color: ${(props) =>
+      props.variant === "income"
+        ? props.theme["green-300"]
+        : props.variant === "expense"
+        ? props.theme["red-300"]
+        : props.theme["white"]};
+  }
+`

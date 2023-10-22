@@ -1,6 +1,6 @@
 import { ArrowCircleUp, ArrowCircleDown, CurrencyDollar } from "phosphor-react"
 
-import { SummaryCard, SummaryContainer } from "./styles"
+import { SummaryCard, SummaryContainer, TransactionTypeIcon } from "./styles"
 
 export function Summary() {
   return (
@@ -8,7 +8,9 @@ export function Summary() {
       <SummaryCard>
         <header>
           <span>Entradas</span>
-          <ArrowCircleUp size={32} color='#00b37e' />
+          <TransactionTypeIcon variant='income'>
+            <ArrowCircleUp size={32} />
+          </TransactionTypeIcon>
         </header>
 
         <strong>R$ 17.900,00</strong>
@@ -17,7 +19,9 @@ export function Summary() {
       <SummaryCard>
         <header>
           <span>Saídas</span>
-          <ArrowCircleDown size={32} color='#f75a68' />
+          <TransactionTypeIcon variant='expense'>
+            <ArrowCircleDown size={32} />
+          </TransactionTypeIcon>
         </header>
 
         <strong>R$ 11.400,00</strong>
@@ -26,7 +30,9 @@ export function Summary() {
       <SummaryCard variant='green'>
         <header>
           <span>Total</span>
-          <CurrencyDollar size={32} color='#fff' />
+          <TransactionTypeIcon variant='total'>
+            <CurrencyDollar size={32} />
+          </TransactionTypeIcon>
         </header>
 
         <strong>R$ 1.400,00</strong>
