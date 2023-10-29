@@ -30,7 +30,7 @@ export function Summary() {
           </Styled.TransactionTypeIcon>
         </header>
 
-        <strong>{priceFormatter.format(summary.outcome)}</strong>
+        <strong>{priceFormatter.format(summary.expense)}</strong>
       </Styled.SummaryCard>
 
       <Styled.SummaryCard variant='green'>

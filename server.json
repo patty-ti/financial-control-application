@@ -11,7 +11,7 @@
     {
       "id": 2,
       "description": "Sapato",
-      "type": "outcome",
+      "type": "expense",
       "category": "Vestuário",
       "price": 150,
       "createdAt": "2023-10-10T19:30:44.505Z"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "description": "Viajem para Santa Catarina",
-      "type": "outcome",
+      "type": "expense",
       "category": "Viajem",
       "price": 1980,
       "createdAt": "2023-10-11T19:24:44.505Z"
@@ -35,10 +35,26 @@
     {
       "id": 5,
       "description": "Pizza",
-      "type": "outcome",
+      "type": "expense",
       "category": "Alimentação",
       "price": 89,
       "createdAt": "2023-10-12T19:24:44.505Z"
+    },
+    {
+      "description": "Desenvolvimento App Financeiro",
+      "price": 1800,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-10-29T22:06:37.010Z",
+      "id": 6
+    },
+    {
+      "description": "Almoço Restaurante",
+      "price": 190,
+      "category": "Alimentação",
+      "type": "expense",
+      "createdAt": "2023-10-29T22:11:47.066Z",
+      "id": 7
     }
   ]
 }
