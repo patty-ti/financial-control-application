@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# Sistema de Controle Financeiro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um sistema de controle financeiro desenvolvido por Patricia Rodrigues, uma Desenvolvedora Front-end. A aplicação foi construída em React.js, Typescript, Vite, Radix UI, Styled Components, Phosphor, SWC React, React Hook Form, ZOD, Json Server, Axios, e requer Node.js v18.18.2 para funcionar.
 
-Currently, two official plugins are available:
+:construction: Projeto em construção :construction:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :books: Visão Geral
 
-## Expanding the ESLint configuration
+O Sistema de Controle Financeiro é uma aplicação web que permite aos usuários controlar suas finanças pessoais. Ele oferece recursos para registrar despesas, receitas e categorizá-las, além de gerar relatórios e resumos financeiros.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :hammer: Funcionalidades do projeto
 
-- Configure the top-level `parserOptions` property like this:
+- Registro de despesas e receitas
+- Categorização de transações
+- Geração de relatórios financeiros
+- Resumos de finanças
+- Autenticação de usuário (opcional)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## :computer: Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React.js**: Uma biblioteca JavaScript para construir interfaces de usuário.
+- **Typescript**: Um superconjunto tipado de JavaScript.
+- **Vite**: Um build tool e servidor de desenvolvimento para aplicações web modernas.
+- **Radix UI**: Uma biblioteca para construir componentes de interface de usuário acessíveis e customizáveis.
+- **Styled Components**: Uma biblioteca para estilizar componentes usando tagged template literals.
+- **Phosphor**: Ícones SVG com visual limpo e moderno.
+- **SWC React**: Um compilador JavaScript/TypeScript muito rápido e eficiente.
+- **React Hook Form**: Uma biblioteca para gerenciar formulários em React de forma simples e eficaz.
+- **ZOD**: Uma biblioteca de validação de dados altamente eficiente e tipo seguro.
+- **Json Server**: Um servidor JSON de desenvolvimento para prototipagem rápida de APIs.
+- **Axios**: Uma biblioteca para fazer requisições HTTP.
+
+## 🛠️ Pré-requisitos
+
+- Node.js v18.18.2
+- Yarn (recomendado, mas você pode usar npm)
+
+## :scroll: Instalação
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/patty-ti/financial-control-application.git
+   cd financial-control-application
+   ```
+
+## :paperclip: Dependências
+
+yarn install
+
+## :file_folder: Uso
+
+- Inicie o servidor JSON para simular uma API de back-end: npm run dev:server
+
+- Inicie a aplicação: yarn dev
+
+A aplicação estará disponível em http://localhost:5173.
