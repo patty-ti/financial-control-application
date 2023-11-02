@@ -2,7 +2,18 @@
 
 :construction: Projeto em construção :construction:
 
-Este é um sistema de controle financeiro desenvolvido por Patricia Rodrigues(Desenvolvedora Front-end). A aplicação foi construída em React.js, Typescript, Vite, Radix UI, Styled Components, Phosphor, SWC React, React Hook Form, ZOD, Json Server, Axios, e requer Node.js v18.18.2 para funcionar.
+Este é um sistema de controle financeiro. A aplicação foi construída em React.js, Typescript, Vite, Radix UI, Styled Components, Phosphor, SWC React, React Hook Form, ZOD, Json Server, Axios, e requer Node.js v18.18.2 para funcionar.
+
+Índice:
+
+- [Visão Geral](##Visão Geral)
+- [Funcionalidades do projeto](##Funcionalidades do projeto)
+- [Tecnologias Utilizadas](##Tecnologias Utilizadas)
+- [Pré-requisitos](##Pré-requisitos)
+- [Instalação](##Instalação)
+- [Dependências](##Dependências)
+- [Uso](##Uso)
+- [Desenvolvido por](##Desenvolvido por)
 
 ## :books: Visão Geral
 
@@ -54,3 +65,7 @@ yarn install
 - Inicie a aplicação: yarn dev
 
 A aplicação estará disponível em http://localhost:5173.
+
+## Desenvolvido por
+
+Desenvolvido por Patricia Rodrigues(Desenvolvedora Front-end)
