@@ -6,15 +6,14 @@ Este é um sistema de controle financeiro desenvolvido por Patricia Rodrigues, u
 
 ## :books: Visão Geral
 
-O Sistema de Controle Financeiro é uma aplicação web que permite aos usuários controlar suas finanças pessoais. Ele oferece recursos para registrar despesas, receitas e categorizá-las, além de gerar relatórios e resumos financeiros.
+O Sistema de Controle Financeiro é uma aplicação web que permite aos usuários controlar suas finanças pessoais. Ele oferece recursos para registrar despesas, receitas e categorizá-las, além de gerar buscas e filtros das operações financeiras cadastradas.
 
 ## :hammer: Funcionalidades do projeto
 
 - Registro de despesas e receitas
 - Categorização de transações
-- Geração de relatórios financeiros
+- Geração de filtros financeiros
 - Resumos de finanças
-- Autenticação de usuário (opcional)
 
 ## :computer: Tecnologias Utilizadas
 
