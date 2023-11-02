@@ -6,14 +6,15 @@ Este é um sistema de controle financeiro. A aplicação foi construída em Reac
 
 Índice:
 
-- [Visão Geral](##Visão Geral)
-- [Funcionalidades do projeto](##Funcionalidades do projeto)
-- [Tecnologias Utilizadas](##Tecnologias Utilizadas)
-- [Pré-requisitos](##Pré-requisitos)
-- [Instalação](##Instalação)
-- [Dependências](##Dependências)
-- [Uso](##Uso)
-- [Desenvolvido por](##Desenvolvido por)
+- [Sistema de Controle Financeiro](#sistema-de-controle-financeiro)
+  - [:books: Visão Geral](#books-visão-geral)
+  - [:hammer: Funcionalidades do projeto](#hammer-funcionalidades-do-projeto)
+  - [:computer: Tecnologias Utilizadas](#computer-tecnologias-utilizadas)
+  - [🛠️ Pré-requisitos](#️-pré-requisitos)
+  - [:scroll: Instalação](#scroll-instalação)
+  - [:paperclip: Dependências](#paperclip-dependências)
+  - [:file_folder: Uso](#file_folder-uso)
+  - [Desenvolvido por](#desenvolvido-por)
 
 ## :books: Visão Geral
 
