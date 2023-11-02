@@ -1,8 +1,8 @@
 # Sistema de Controle Financeiro
 
-Este é um sistema de controle financeiro desenvolvido por Patricia Rodrigues, uma Desenvolvedora Front-end. A aplicação foi construída em React.js, Typescript, Vite, Radix UI, Styled Components, Phosphor, SWC React, React Hook Form, ZOD, Json Server, Axios, e requer Node.js v18.18.2 para funcionar.
-
 :construction: Projeto em construção :construction:
+
+Este é um sistema de controle financeiro desenvolvido por Patricia Rodrigues(Desenvolvedora Front-end). A aplicação foi construída em React.js, Typescript, Vite, Radix UI, Styled Components, Phosphor, SWC React, React Hook Form, ZOD, Json Server, Axios, e requer Node.js v18.18.2 para funcionar.
 
 ## :books: Visão Geral
 
